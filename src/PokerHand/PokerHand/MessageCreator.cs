@@ -9,7 +9,7 @@ namespace PokerHand
 
         public string GetWinnerMessage(PlayerNumber playerNum)
         {
-            return ("\nPlayer {playerNum.ToString()} has higher rank and wins");
+            return ($"\nPlayer {playerNum.ToString()} has higher rank and wins");
         }
 
         public string GetTieMessage()
